@@ -1,5 +1,4 @@
 #!/bin/bash
-stty erase '^H'
 
 (yum update -y || apt-get update -y) 2>&-
 
